@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch prueba2delectura",
+            "request": "launch",
+            "mainClass": "prueba2delectura",
+            "projectName": "xml_4efd8946"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "-Xmx6000m -Xms1024 -XX:MaxPermiSize=512M",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch leerxml",
+            "request": "launch",
+            "mainClass": "leerxml",
+            "projectName": "xml_4efd8946"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "xml_4efd8946"
+        },
+        {
+            "type": "java",
+            "name": "Launch xml",
+            "request": "launch",
+            "mainClass": "xml",
+            "projectName": "xml_4efd8946"
+        }
+    ]
+}
